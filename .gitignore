@@ -1,0 +1,9 @@
+#prevents files we dont want to be pushed to git i.e node modules folder
+#ignore node_modules
+node_modules/
+#environment variables 
+.environment.env,
+.env.*
+#certifications
+*.pem
+certs/
